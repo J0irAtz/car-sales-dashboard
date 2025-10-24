@@ -59,8 +59,8 @@ if build_histogram:
 if build_scatter:
     st.write('Creación de un gráfico de dispersión (Price vs. Odometer)')
 
-    # Crear el gráfico de dispersión con Plotly Express
-    # Usamos las columnas 'odometer' y 'price'
+    # Creo el gráfico de dispersión con Plotly Express
+    # Uso las columnas 'odometer' y 'price'
     fig_scatter = px.scatter(
         car_data, 
         x="odometer", 
